@@ -94,7 +94,7 @@ public class UserUseCase { // Clase de las acciones a realizar el Use Case
             users.remove(index);
             return "Se ha eliminado el Usuario correctamente.";
        } catch (Exception e) {
-            return "no ha sido posible eliminar la tarea.";
+            return "no ha sido posible eliminar el Usuario.";
        }
     }
 }
